@@ -1,3 +1,9 @@
+## Credits
+
+This project is forked from [Intel_Briefing](https://github.com/77AutumN/Intel_Briefing) (MIT licensed).  
+This fork adapts the original workflow to better support biotech-focused news sources, including bioRxiv and related feeds.
+To be modified later.....
+
 <div align="center">
 
 # 🕵️ Intel Briefing - AI 情报聚合系统
