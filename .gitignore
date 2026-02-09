@@ -1,0 +1,58 @@
+# 隐私数据和缓存
+.env
+.secrets/
+
+# 生成的报告 (你的私有情报)
+reports/*
+!reports/tactical/.gitkeep
+!reports/web3/.gitkeep
+!reports/opportunities/.gitkeep
+!reports/daily_briefings/.gitkeep
+
+# 玩家档案 (个人隐私)
+player/
+
+# 任务系统和收入数据 (商业策略)
+quests/
+revenue/
+
+# 高级商业逻辑 prompt (私有版本)
+.agent/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Antigravity 本地状态
+.antigravity/
+
+# 归档
+.archive/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 临时任务文件
+task.md
+implementation_plan.md
+
+# === 隐私保护：个人策略和偏好 ===
+AIA_Field_Manual.md
+SKILL.md
+
+# XHS 雷达 (不公开)
+src/sensors/xhs_radar.py
+
+# 临时/调试文件
+temp_*.csv
+debug_*.py
+*.bak
